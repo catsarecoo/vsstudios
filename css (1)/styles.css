@@ -2420,36 +2420,4 @@ h1 {
   ); 
   border-radius: 3px;
 }
-.mCSB_scrollTools {
-  opacity: 1;
-}
 
-.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
-  background-color: #6d02e5;
-  border-radius: 0;
-  width: 8px;
-}
-
-.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,
-.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
-.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
-  background-color: #9294c7;
-}
-
-.mCSB_scrollTools .mCSB_draggerRail {
-  background-color: #9294c7;
-}
-
-.mCSB_scrollTools,
-.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
-.mCSB_scrollTools .mCSB_buttonUp,
-.mCSB_scrollTools .mCSB_buttonDown,
-.mCSB_scrollTools .mCSB_buttonLeft,
-.mCSB_scrollTools .mCSB_buttonRight,
-.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
-.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
-.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
-.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail {
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
